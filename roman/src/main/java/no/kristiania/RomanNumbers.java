@@ -10,7 +10,10 @@ public class RomanNumbers {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
         System.out.printf("%d in roman notation is %s", number,
-                "I don't know");
+                toRoman(number));
     }
-    
+
+    public static String toRoman(int number) {
+        return "I";
+    }
 }
